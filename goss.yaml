@@ -36,6 +36,12 @@ command:
     - /usr/bin/unzip
     stderr: []
     timeout: 10000
+  which make:
+    exit-status: 0
+    stdout:
+    - /usr/bin/make
+    stderr: []
+    timeout: 10000
 
 # Docker compose.
   which docker-compose:
